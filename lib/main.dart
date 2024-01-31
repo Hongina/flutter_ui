@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/myhome.dart';
+import 'package:flutter_ui/menubook.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,11 +26,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               body: const TabBarView(
-                children: [
-                  MyHome(),
-                  Icon(Icons.menu_book),
-                  Icon(Icons.contact_support)
-                ],
+                children: [MyHome(), MenuBook(), Icon(Icons.contact_support)],
               ))),
     );
   }
