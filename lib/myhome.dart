@@ -16,7 +16,7 @@ class MyHome extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
         ),
-        Image.asset('assets/images/01.png'),
+        Image.asset('assets/images/12.jpg'),
         Container(
           margin: EdgeInsets.all(50.0),
           child: Text(
@@ -26,7 +26,7 @@ class MyHome extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.purple)),
         ),
-        Image.asset('assets/images/02.jpg'),
+        Image.asset('assets/images/13.jpg'),
         Container(
           margin: EdgeInsets.all(50.0),
           child: Text(
@@ -36,7 +36,7 @@ class MyHome extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: Colors.purple)),
         ),
-        Image.asset('assets/images/03.png'),
+        Image.asset('assets/images/11.jpg'),
       ],
     ));
   }
