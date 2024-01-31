@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/myhome.dart';
-import 'package:flutter_ui/menubook.dart';
+import 'package:flutter_ui/menu.dart';
+import 'package:flutter_ui/contactinfo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,17 +17,24 @@ class MyApp extends StatelessWidget {
           length: 3,
           child: Scaffold(
               appBar: AppBar(
-                title: const Text('อยากกินแหนม'),
+                title: Center(
+                    child: const Text(
+                  'IT Shop',
+                  style: TextStyle(
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.purple),
+                )),
                 bottom: const TabBar(
                   tabs: [
-                    Tab(icon: Icon(Icons.home), text: ('หน้าแรก')),
-                    Tab(icon: Icon(Icons.menu_book), text: ('หลักสูตร')),
-                    Tab(icon: Icon(Icons.contact_support), text: ('ติดต่อ')),
+                    Tab(icon: Icon(Icons.home), text: ('Home')),
+                    Tab(icon: Icon(Icons.menu_book), text: ('Menu')),
+                    Tab(icon: Icon(Icons.contact_support), text: ('Contact')),
                   ],
                 ),
               ),
               body: const TabBarView(
-                children: [MyHome(), MenuBook(), Icon(Icons.contact_support)],
+                children: [MyHome(), Menu(), ContactInfo()],
               ))),
     );
   }
