@@ -63,6 +63,12 @@ flutter:
     - assets/images/01.png
     - assets/images/02.jpg
     - assets/images/03.png
+    - assets/images/04.png
+    - assets/images/05.jpg
+    - assets/images/06.jpg
+    - assets/images/07.jpg
+    - assets/images/08.jpg
+    - assets/images/jisoo.webp
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
