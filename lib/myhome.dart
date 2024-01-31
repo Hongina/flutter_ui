@@ -12,7 +12,7 @@ class MyHome extends StatelessWidget {
           child: const Text(
             'Consider the various channels and tactics you can use to promote your laptops',
             style: TextStyle(
-                fontSize: 30, color: Colors.pink, fontWeight: FontWeight.bold),
+                fontSize: 20, color: Colors.pink, fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
         ),
@@ -22,7 +22,7 @@ class MyHome extends StatelessWidget {
           child: Text(
               'social media marketing, content marketing, influencer partnerships, and online advertising',
               style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.purple)),
         ),
@@ -32,7 +32,7 @@ class MyHome extends StatelessWidget {
           child: Text(
               'Determine the key messages and unique selling points you want to convey to your target audience',
               style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.purple)),
         ),
